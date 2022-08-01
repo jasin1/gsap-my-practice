@@ -5,5 +5,6 @@ gsap.fromTo(".fred-2",{x:700, opacity:0},{x:400, rotation:360, duration:3, opaci
 //door-bottom
 //door-top
 let myDelay = 0.3;
-gsap.to(".door-top",{height:0, duration:0.5, delay: myDelay});
-gsap.to(".door-bottom",{height:0, duration:0.5, delay: myDelay});
+let myDuration = 0.3;
+gsap.to(".door-top",{height:0, duration:myDuration, delay: myDelay});
+gsap.to(".door-bottom",{height:0, duration:myDuration, delay: myDelay});
