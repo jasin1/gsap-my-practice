@@ -8,3 +8,6 @@ let myDelay = 0.3;
 let myDuration = 0.3;
 gsap.to(".door-top",{height:0, duration:myDuration, delay: myDelay});
 gsap.to(".door-bottom",{height:0, duration:myDuration, delay: myDelay});
+
+gsap.to(".door-white-top",{height:0, duration:myDuration, delay: myDelay});
+gsap.to(".door-white-bottom",{height:0, duration:myDuration, delay: myDelay});
